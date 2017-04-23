@@ -1,0 +1,46 @@
+{
+  "name": "openfitness",
+  "version": "1.0.0",
+  "description": "Bring all fitness platforms into one single location",
+  "main": "./lib/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-server": "node-dev test/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaplanmaxe/openfitness.git"
+  },
+  "keywords": [
+    "fitness",
+    "fitbit",
+    "withings",
+    "map",
+    "my",
+    "run",
+    "ride",
+    "swimming",
+    "biking",
+    "cycling",
+    "running"
+  ],
+  "author": "Kaplan Komputing, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaplanmaxe/openfitness/issues"
+  },
+  "homepage": "https://github.com/kaplanmaxe/openfitness#readme",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "moment": "^2.18.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "eslint-config-sourcetoad": "^1.0.2",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
